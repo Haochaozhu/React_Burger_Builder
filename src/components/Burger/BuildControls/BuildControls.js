@@ -21,7 +21,7 @@ const buildControls = (props) => (
             disabledInfo = {props.disabledInfo[ele.type]}
             />
         )}
-         <button onClick={props.orderClicked}disabled={props.ingredientsAmount === 0} className={classes.OrderButton}>Order now</button>
+         <button onClick={props.orderClicked} disabled={props.ingredientsAmount === 0} className={classes.OrderButton}>Order now</button>
     </div>
 )
 
